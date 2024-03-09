@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Motoristas</title>
+    <style>
+        body {
+            background-color: yellow;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        hr {
+            border: 1px solid black;
+            margin: 20px 0;
+        }
+        .motorista {
+            margin-bottom: 40px;
+        }
+        .motorista img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .info {
+            margin-top: 10px;
+            text-align: left;
+        }
+        .botao-whatsapp {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .botao-whatsapp:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="caminho_para_o_logo.png" alt="Logo">
+        <h1>Catálogo de Motoristas Angel Driver</h1>
+        <input type="text" placeholder="Buscar motorista">
+        <hr>
+        <div class="motorista">
+            <img src="foto_motorista.jpg" alt="Foto do Motorista">
+            <img src="foto_carro.jpg" alt="Foto do Carro">
+            <div class="info">
+                <p><strong>Nome Completo:</strong> Nome do Motorista</p>
+                <p><strong>Localização da Partida:</strong> Localização</p>
+                <p><strong>Carro Modelo Ano:</strong> Modelo Ano</p>
+                <p><strong>Necessidades Especiais:</strong> Necessidades</p>
+                <button class="botao-whatsapp"><a href="https://wa.me/seunumerodetelefone" style="text-decoration: none; color: white;">Fale com o Motorista</a></button>
+            </div>
+        </div>
+        
+        <hr>
+    </div>
+</body>
+</html>
